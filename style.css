@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* PARTE DE CIMA DAS INFORMAÇOES*/
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: palevioletred;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1cm;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1cm;
+}
+
+.products,
+.cart,
+.contact-form {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* todos os produtos */
+.product {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.products,
+.cart,
+.contact-form {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.products,
+.cart,
+.contact-form {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* produtos 2*/
+.product button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+
+.product button:hover {
+    background-color: #155ab5;
+}
+
+.cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.cart button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer .store-info {
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Estilo geral para os produtos */
+.produto {
+    display: inline-block;
+    width: 180px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    /* Indica que o elemento é clicável */
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Adiciona um efeito ao passar o mouse */
+.produto:hover {
+    transform: scale(1.05);
+    /* Amplia levemente o produto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Adiciona uma sombra */
+}
+
+/* Estilo para as imagens */
+.produto img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para os títulos */
+.produto h3 {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+
+/* Estilo para os preços */
+.produto p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Container para organizar os produtos */
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que os itens quebrem para a próxima linha */
+    justify-content: center;
+    /* Centraliza os itens no container */
+    gap: 20px;
+    /* Espaçamento entre os produtos */
+    padding: 20px;
+}
+
+.product img {
+    width: 100px;
+    /* Define a largura da imagem */
+    height: auto;
+    /* Ajusta a altura proporcionalmente */
+}
+
+.product img {
+    width: 100%;
+    /* A imagem se adapta à largura do contêiner */
+    height: auto;
+    /* Mantém a proporção da imagem */
+}
+
+.product img {
+    max-width: 200px;
+    /* A largura não ultrapassa 200px */
+    height: auto;
+    /* Ajusta a altura proporcionalmente */
+}
+
+/* tamanho das fontes do preço*/
+.price {
+
+    font-size: 0.8rem;
+    /* Aproximadamente 80% do tamanho da fonte padrão */
+}
